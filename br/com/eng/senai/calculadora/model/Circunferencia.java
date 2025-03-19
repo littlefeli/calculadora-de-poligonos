@@ -19,10 +19,10 @@ public class Circunferencia {
 	
 	public void resultado() {
 		System.out.println("==================");
-		System.out.println("DADOS DA CIRCUNFERÊNCIA");
+		System.out.println("DADOS DA CIRCUNFERENCIA");
 		System.out.println("==================");
 		System.out.println("RAIO: " + raio);
-		System.out.println("ÁREA: " + String.format("%.2f", calcularArea()));
+		System.out.println("AREA: " + String.format("%.2f", calcularArea()));
 		System.out.println("==================");
 	}
 }

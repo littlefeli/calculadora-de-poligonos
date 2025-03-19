@@ -38,12 +38,12 @@ public class Trapezio {
 	
 	public void resultado() {
 		System.out.println("==================");
-		System.out.println("DADOS DO TRAPÉZIO");
+		System.out.println("DADOS DO TRAPEZIO");
 		System.out.println("==================");
 		System.out.println("BASE MAIOR: " + baseMaior);
 		System.out.println("BASE MENOR: " + baseMenor);
 		System.out.println("ALTURA: " + altura);
-		System.out.println("ÁREA: " + String.format("%.2f", calcularArea()));
+		System.out.println("AREA: " + String.format("%.2f", calcularArea()));
 		System.out.println("==================");
 	}
 }

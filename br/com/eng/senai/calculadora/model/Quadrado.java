@@ -1,4 +1,6 @@
 package br.com.eng.senai.calculadora.model;
+import java.lang.Math;
+
 
 public class Quadrado {
 	private double lado;
@@ -28,8 +30,8 @@ public class Quadrado {
 		System.out.println("DADOS DO QUADRADO");
 		System.out.println("==================");
 		System.out.println("BASE/ALTURA: " + lado);
-		System.out.println("√ÅREA: " + String.format("%.2f", calcularArea()));
-		System.out.println("PER√çMETRO: " + String.format("%.2f", calcularPerimetro()));
+		System.out.println("¡REA: " + String.format("%.2f", calcularArea()));
+		System.out.println("PAR¬METRO: " + String.format("%.2f", calcularPerimetro()));
 		System.out.println("==================");
 	}
 

@@ -34,12 +34,12 @@ public class Retangulo {
 	
 	public void resultado() {
 		System.out.println("==================");
-		System.out.println("DADOS DO RETÃ‚NGULO");
+		System.out.println("DADOS DO RETÂNGULO");
 		System.out.println("==================");
 		System.out.println("BASE: " + base);
 		System.out.println("ALTURA: " + altura);
-		System.out.println("AREA: " + String.format("%.2f", calcularArea()));
-		System.out.println("PERIMETRO:  " + String.format("%.2f", calcularPerimetro()));
+		System.out.println("ÁREA: " + String.format("%.2f", calcularArea()));
+		System.out.println("PERÍMETRO:  " + String.format("%.2f", calcularPerimetro()));
 		System.out.println("==================");
 	}
 		

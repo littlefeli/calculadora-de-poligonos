@@ -6,7 +6,7 @@ import br.com.eng.senai.calculadora.model.Retangulo;
 import br.com.eng.senai.calculadora.model.Trapezio;
 import br.com.eng.senai.calculadora.model.Triangulo;
 
-public class Calculadora {
+public class Main {
 	public static void main(String args[]) {
 		
 		//Circunferencia
@@ -14,7 +14,7 @@ public class Calculadora {
 		c1.setRaio(5);
 		c1.resultado();
 		
-		//Triângulo
+		//Triangulo
 		Triangulo t1 = new Triangulo();
 		t1.setBase(6);
 		t1.setAltura(4);
@@ -33,7 +33,7 @@ public class Calculadora {
 		q1.resultado();
 		
 		
-		//Retângulo
+		//Retangulo
 		Retangulo r1 = new Retangulo();
 		r1.setBase(6);
 		r1.setAltura(3);
